@@ -32,5 +32,6 @@ Here I will write the commands most usefull commands, in order to don't forget t
 * Mod + z -> Open Quick Menu
 * Mod + 0 -> Login/Power Menu
 * Mod + Shift + Space -> Change Floating Mode for a screen
-* Mod + Shift + p -> Make screenshots of a selected area
+
+
 
