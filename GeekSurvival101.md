@@ -4,7 +4,7 @@
 1. [How to change the default browser in Linux ](#id1)
 2. [Cheatlists](#id2)
 	1. [i3](#id2)
-	2. Vim
+	2. [Vim](#id3)
 	3. Tmux
 	4. Ranger
 	
@@ -33,5 +33,9 @@ Here I will write the commands most usefull commands, in order to don't forget t
 * Mod + 0 -> Login/Power Menu
 * Mod + Shift + Space -> Change Floating Mode for a screen
 
-
+### Vim <a name="id3">
+Here is a small cheatsheet based on my vimrc:
+* Movement
+	* gg -> Goes to the first line
+	* G -> Goes to the last line
 
