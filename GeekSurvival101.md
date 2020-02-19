@@ -36,6 +36,18 @@ Here I will write the commands most usefull commands, in order to don't forget t
 ### Vim <a name="id3">
 Here is a small cheatsheet based on my vimrc:
 * Movement
+	* hjkl -> Normal movement, can be done with the arrows
 	* gg -> Goes to the first line
 	* G -> Goes to the last line
+* Modes
+	* i -> Insert mode
+	* r -> Replace mode
+	* v -> Visual mode
+* Copy stuff
+	* y -> yank
+	* dd -> cut 
 
+haijsdfhakjd
+skljdfsk
+
+"_dd -> For cuting to the black hole register (deleting), I should make a macro 
