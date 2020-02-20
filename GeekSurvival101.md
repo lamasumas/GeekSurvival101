@@ -40,14 +40,28 @@ Here is a small cheatsheet based on my vimrc:
 	* gg -> Goes to the first line
 	* G -> Goes to the last line
 * Modes
-	* i -> Insert mode
+	* i -> Insert mode (on the left of the letter)
+	* a -> Insert mode (on the right of the letter)
 	* r -> Replace mode
 	* v -> Visual mode
+	* I -> Insert at the begining of the line
+	* A -> Insert at the begining of the line
 * Copy stuff
 	* y -> yank
 	* dd -> cut 
+	(needs to be extended)
+* Tabs (my own macros)
+	* Ctrl-n -> Create a new tab
+	* Ctrl-m -> Next tab
+* Panes (my own macros)
+	* Ctrl-y -> Vertical pane
+	* Shift-y -> Horizontal pane
+	* Ctrl-t -> Send a pane to a tab
+* Undo your own mistakes
+	* u -> Undo
+	* Ctrl-r -> Redo
 
-haijsdfhakjd
-skljdfsk
-
+* Extras
+	* Ctrl-o -> File tree (NERDTree plugin)
+	* Ctrl-f -> File searching 
 "_dd -> For cuting to the black hole register (deleting), I should make a macro 
