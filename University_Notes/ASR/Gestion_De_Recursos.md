@@ -28,7 +28,7 @@
 	* Esta utilidad produce una imagen buteable, con la que poder restaurar el sistema
 	* Como configurar el ReaR esta en las diapositivas
 
-# Tema 3: Gestion y administracion de usuarios
+# Tema 3: Gestion y administracion de usuarios (No entra en el examen)
 
 * Un usuario se caracteriza por su 
 	* Su UID
