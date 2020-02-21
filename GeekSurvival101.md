@@ -39,13 +39,17 @@ Here is a small cheatsheet based on my vimrc:
 	* hjkl -> Normal movement, can be done with the arrows
 	* gg -> Goes to the first line
 	* G -> Goes to the last line
+	* gj or gk -> instead of moving up and down logicaly, it do it visualy, so the movement is mover natural
 * Modes
 	* i -> Insert mode (on the left of the letter)
 	* a -> Insert mode (on the right of the letter)
 	* r -> Replace mode
 	* v -> Visual mode
+	* V -> Visual mode over lines
 	* I -> Insert at the begining of the line
 	* A -> Insert at the begining of the line
+* Visual 
+	* vap -> Select all the paragragh (v -> visual mode, a-> all, p -> paragraph)
 * Copy stuff
 	* y -> yank
 	* dd -> cut 
@@ -60,8 +64,8 @@ Here is a small cheatsheet based on my vimrc:
 * Undo your own mistakes
 	* u -> Undo
 	* Ctrl-r -> Redo
-
 * Extras
 	* Ctrl-o -> File tree (NERDTree plugin)
 	* Ctrl-f -> File searching 
+
 "_dd -> For cuting to the black hole register (deleting), I should make a macro 

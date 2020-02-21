@@ -56,7 +56,13 @@ nnoremap <C-t> <C-w>T
 nnoremap <C-y> :vertical sb
 nnoremap <S-Y> :sb
 
+"Remap the escape to jj  
 :imap jj <Esc>
+"Remap the up and down movement to a visual one instead the logic one
+:nnoremap j gj 
+:nnoremap k gk
+
+
 
 "Config variables
 let g:ycm_autoclose_preview_window_after_insertion = 1
