@@ -53,11 +53,13 @@ Here is a small cheatsheet based on my vimrc:
 * Copy stuff
 	* y -> yank
 	* dd -> cut 
-	(needs to be extended)
+	* xx -> Delete without copying (like dd)
+
 * Tabs (my own macros)
 	* Ctrl-n -> Create a new tab
 	* Ctrl-m -> Next tab
 * Panes (my own macros)
+	* Ctrl-w -> Move between panes
 	* Ctrl-y -> Vertical pane
 	* Shift-y -> Horizontal pane
 	* Ctrl-t -> Send a pane to a tab
@@ -68,4 +70,3 @@ Here is a small cheatsheet based on my vimrc:
 	* Ctrl-o -> File tree (NERDTree plugin)
 	* Ctrl-f -> File searching 
 
-"_dd -> For cuting to the black hole register (deleting), I should make a macro 

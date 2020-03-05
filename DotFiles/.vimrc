@@ -28,51 +28,47 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
 
+
+"Pluggins
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'scrooloose/nerdtree'
 Plugin 'junegunn/fzf'
 Plugin 'itchyny/lightline.vim'
 Plugin 'w0rp/ale'
-" The following are examples of different formats supported.
-" Keep Plugin commands between vundle#begin/end.
-" plugin on GitHub repo
-"Plugin 'tpope/vim-fugitive'
-" plugin from http://vim-scripts.org/vim/scripts.html
-" Plugin 'L9'
-" Git plugin not hosted on GitHub
-"Plugin 'git://git.wincent.com/command-t.git'
-" git repos on your local machine (i.e. when working on your own plugin)
-""Pluin 'file:///home/gmarik/path/to/plugin'
-" The sparkup vim script is in a subdirectory of this repo called vim.
-" Pass the path to set the runtimepath properly.
-"Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
-" Install L9 and avoid a Naming conflict if you've already installed a
-" different version somewhere else.
-" Plugin 'ascenator/L9', {'name': 'newL9'}
-
-" All of your Plugins must be added before the following line
+Plugin 'Townk/vim-autoclose'
+Plugin 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() } }
 call vundle#end()            " required
 filetype plugin indent on    " required
-" To ignore plugin indent changes, instead use:
-"filetype plugin on
-"
-" Brief help
-" :PluginList       - lists configured plugins
-" :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
-" :PluginSearch foo - searches for foo; append `!` to refresh local cache
-" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
-"
-" see :h vundle for more details or wiki for FAQ
-" Put your non-Plugin stuff after this lineg
-"
+
+
+"Maps
+"Tab manegement
 nnoremap <C-n> :tabnew<CR>
 nnoremap <C-m> :tabNext<CR>
+"NerdTree keymap
 nnoremap <C-o> :NERDTreeToggle <CR>
+"Filesearch keymap
 nnoremap <C-f> :FZF <CR>
+"Keymap for sending a split to a tab
 nnoremap <C-t> <C-w>T
+"Keymaps fot opening a tab as a vertical or horizontal split
+nnoremap <C-y> :vertical sb <CR>
+nnoremap <S-Y> :sb  <CR>
+"Remap the escape to jj  
+inoremap  jj <Esc> 
+"Remap the up and down movement to a visual one instead the logic one
+nnoremap j gj 
+nnoremap k gk
+"Delete without coppying 
+nnoremap xx "_dd
+"Autoformat the code
+nnoremap <C-k>  gg=G
+"Ortographic check"
+map <C-l> :set spell spelllang=
 
+
+"Config variables
 let g:ycm_autoclose_preview_window_after_insertion = 1
-~
-~
-~
-
+"This sets the numbered lines 
+set number
+set clipboard+=unnamedplus
